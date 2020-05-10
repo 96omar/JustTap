@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_card_view"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="9dp"
+        card_view:cardElevation="5dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:contentPadding="5dp"
+        android:backgroundTint="@color/white"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/main_icon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_icon"
+                android:gravity="center"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:textColor="@color/black_overlay"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray" />
+
+            <TextView
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_title"
+                android:gravity="center"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:textSize="@dimen/songs_count"
+                android:textColor="@color/black_overlay"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

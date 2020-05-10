@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "917510447844",
+    "firebase_url": "https://just-tap-3d747.firebaseio.com",
+    "project_id": "just-tap-3d747",
+    "storage_bucket": "just-tap-3d747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917510447844:android:cd04258a13847fd4",
+        "android_client_info": {
+          "package_name": "com.SevenDigITs.Solutions.justTap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917510447844-05s53vudpbpjsdonmi90ju0gon4b78oc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SevenDigITs.Solutions.justTap",
+            "certificate_hash": "f0e3b1c04e4ea62f883536b20388c222e4d3fbd4"
+          }
+        },
+        {
+          "client_id": "917510447844-3jsgqne58cjg4ek24uonfgi32jeqeoc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6lC03O6u9vavNroZVDtEoUFm4V0wrV9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917510447844-3jsgqne58cjg4ek24uonfgi32jeqeoc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

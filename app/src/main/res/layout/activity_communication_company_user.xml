@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_comuni_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/content_user_comuni_comp" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollComuni"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/q_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/company_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="  1) Orange Service"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/green_emr" />
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title1" />
+
+                <View style="@style/view_comuni" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+
+                        android:id="@+id/bttn_char1"
+                        style="@style/bttn_comuni" />
+
+                    <TextView
+                        android:id="@+id/txt_char1"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title2" />
+
+                <View style="@style/view_comuni" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char2"
+                        style="@style/bttn_comuni" />
+
+                    <TextView
+                        android:id="@+id/txt_char2"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title3" />
+
+                <View style="@style/view_comuni" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char3"
+                        style="@style/bttn_comuni" />
+
+                    <TextView
+                        android:id="@+id/txt_char3"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title4" />
+
+                <View style="@style/view_comuni" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char4"
+                        style="@style/bttn_comuni" />
+
+                    <TextView
+                        android:id="@+id/txt_char4"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title5" />
+
+                <View style="@style/view_comuni" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char5"
+                        style="@style/bttn_comuni"
+                       />
+
+                    <TextView
+                        android:id="@+id/txt_char5"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title6" />
+
+                <View style="@style/view_comuni" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char6"
+                        style="@style/bttn_comuni"
+                    />
+
+                    <TextView
+                        android:id="@+id/txt_char6"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                       style="@style/content_comuni"
+                        android:text="@string/code" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/title_comuni"
+                    android:text="@string/card_charge_title7"
+                     />
+
+                <View
+                    style="@style/view_comuni"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttn_char7"
+                      style="@style/bttn_comuni" />
+
+                    <TextView
+                        android:id="@+id/txt_char7"
+                        style="@style/content_comuni"
+                        android:text="#123*" />
+
+                    <TextView
+                        style="@style/content_comuni"
+                        android:text="@string/code" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

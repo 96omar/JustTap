@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:id="@+id/container"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:animateLayoutChanges="true" >
+
+    <ViewAnimator
+            android:id="@+id/viewAnimator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <ListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/categoryListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+        <EditText
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/noteEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:hint="Enter note text" android:linksClickable="true"
+                android:textIsSelectable="false" android:autoLink="phone|email|web" android:editable="true"
+                android:enabled="true" android:inputType="textImeMultiLine|textMultiLine|textCapSentences|textLongMessage|textAutoComplete"/>
+
+        <ListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/noteListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+    </ViewAnimator>
+
+    </LinearLayout>
+

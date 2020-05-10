@@ -1,0 +1,373 @@
+<resources>
+    <string name="app_name_final" translatable="false">Just Tap</string>
+    <string name="voice">Voice</string>
+    <string name="emergency">Emergency</string>
+    <string name="my_healty">My Healty</string>
+    <string name="tracker">GPS Tracker</string>
+    <string name="Voicem">Voice</string>
+    <string name="emergencym">Emergency</string>
+    <string name="my_health">My Healty</string>
+    <string name="in_myhealth">My Health</string>
+    <string name="trackerm">GPS Tracker</string>
+    <string name="title_activity_nevegation">NevegationActivity</string>
+    <string name="medication">Medication Reminder</string>
+    <string name="Tips">Essential Tips</string>
+
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Your Phone Number</string>
+    <string name="phone_number2">Trusted Person Phone Number</string>
+    <string name="age">Age</string>
+    <string name="T_regitser">Your Name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_today">Today</string>
+
+    <string name="title_activity_history">History</string>
+
+    <string name="title_activity_tomorrow">Tomorrow</string>
+
+    <string name="title_activity_add">Add Alarm!</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+
+
+    <string name="title_activity_alert">Alert Activity Screen</string>
+
+    <string name="str_btn_set_alarm">Set Alarm</string>
+
+    <string name="str_btn_cancel">Cancel</string>
+
+    <string name="str_tv_message">Opened by Alarm</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="pill_name">Please insert pill name</string>
+
+
+    <string name="Monday">Mo</string>
+    <string name="Tuesday">Tu</string>
+    <string name="Wednesday">We</string>
+    <string name="Thursday">Th</string>
+    <string name="Friday">Fr</string>
+    <string name="Saturday">Sa</string>
+    <string name="Sunday">Su</string>
+
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="action_edit">edit</string>
+    <string name="appwidget_text">Tap It To Call!</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+
+
+    <!-- began of Strings for reminder -->
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="action_search">Search</string>
+    <string name="help">Help</string>
+    <string name="new_category">New Category</string>
+    <string name="create_new">Enter New Item Name</string>
+    <string name="open">Open</string>
+    <string name="dialog_search_message">Hello</string>
+    <string name="dialog_search_title">Search</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <array name="contextMenuArray">
+        <item>Open</item>
+        <item>Delete</item>
+    </array>
+    <!-- end of Strings for reminder -->
+    <!-- began of Strings for flash -->
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- start of Strings for GPS -->
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">123</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <!-- end of Strings for GPS -->
+
+    <string name="title_activity_display" translatable="false">Transport Display</string>
+    <string name="title_activity_gps__tracker">Map</string>
+
+    <!-- start of Strings for validation -->
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="invalid_age">Age must be between 15 and 75</string>
+    <string name="invalid_age_trusted">Age must be between 12 and 50</string>
+    <string name="emailerror">Enter Valid Email that must like "example.4@gmail.com"</string>
+    <string name="passworderror">Enter Password that must contains one digit from 0-9 and lowercase-uppercase and special symbols in the list "@#$%"
+         and length at least 6 characters and maximum of 20</string>
+    <string name="mobileerror">Enter Valid Mobile Number that must contain numbers that length 11 and including character [+] infront that is optional </string>
+    <!-- end of Strings for validation -->
+
+    <string name="loading">Loading</string>
+
+
+    <string name="map_view">Map</string>
+    <string name="list_view">List</string>
+    <string name="route_view">Route</string>
+    <string name="filter">Filter</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="gps_network_not_enabled">GPS is Not Enabled</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="errorGPSMassage">Please enable location services</string>
+    <string name="checkConnection">You are not connected to Internet, Please Turn on your Internet Connection</string>
+    <string name="flashTitleError">Error !!</string>
+    <string name="flashTapAgain">Tap Again To Turn Off Flash</string>
+    <string name="cardTitle1">Emergency</string>
+    <string name="cardContent1">Tap on Emergency To Call Your Trusted for help Or You Can Use Widget To Call</string>
+    <string name="cardTitle2">Tools</string>
+    <string name="cardContent2">The Most Commonly Used Tools Or Phone Settings Placed Here</string>
+    <string name="cardTitle3">My Health</string>
+    <string name="cardContent3">All About Your Health Care</string>
+    <string name="cardTitle4">Take A Note</string>
+    <string name="cardContent4">Schedule All Your Tasks And Work</string>
+    <string name="cardTitle5">Popular Apps</string>
+    <string name="cardContent5">All Your Popular Apps In One Place</string>
+    <string name="cardTitle6">NewsPaper</string>
+    <string name="cardContent6">All Your NewsPaper Do You Want To Read In One Place</string>
+    <string name="cardTitle7">Communications Companies Codes</string>
+    <string name="cardContent7">All communications companies Codes For Any Service Do You Want</string>
+    <string name="cardTitle8">Emergency Calling Services</string>
+    <string name="cardContent8">All Service and Telephone lines Do You Want To Call</string>
+    <string name="loadingApps">Please Wait While Loading you\'r Apps</string>
+    <string name="loadingLocation">Please Wait While Loading you\'r target elder location</string>
+    <string name="titleNewsPaper">NewsPaper</string>
+    <string name="toolsTitle">Tools</string>
+    <string name="cardTitleTool1" translatable="false">WIFI</string>
+    <string name="cardContentNull" translatable="false" />
+    <string name="cardTitleTool2">Bluetooth</string>
+    <string name="cardTitleTool3">Mobile Data</string>
+    <string name="cardTitleTool4">Screen Option</string>
+    <string name="cardTitleTool5">Dialer</string>
+    <string name="cardTitleTool6">Contacts</string>
+    <string name="cardTitleTool7">Massages</string>
+    <string name="cardTitleTool8">Camera</string>
+    <string name="cardTitleTool9">Gallary</string>
+    <string name="cardTitleTool10">Calculator</string>
+    <string name="cardTitleTool11">Airplan Mode</string>
+    <string name="cardTitleTool12">Sound Options</string>
+    <string name="healthTitle">My Healthy</string>
+    <string name="cardTitleHealth1">Pill  Reminder</string>
+    <string name="cardContentHealth1">Remind you to your medication doses</string>
+    <string name="cardTitleHealth2">Healthy FAQs</string>
+    <string name="cardContentHealth2">Answer questions about the most common diseases</string>
+    <string name="faqsTitle">FAQs</string>
+
+    <string name="cardTitleFAQs1">Diabetes</string>
+    <string name="cardContentFAQs1"><li><b>Diabetes</b> is a disease that occurs when your blood glucose, also called blood sugar, is too high.\n</li>
+        <li>Blood glucose is your main source of energy and comes from the food you eat.\n</li>
+        <li><b>Insulin,</b> a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy.\n</li>
+        <li>Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well.\n</li>
+        <li>Glucose then stays in your blood and doesn’t reach your cells.</li></string>
+    <string name="DiabetesTreatment"><li><b>Insulin</b>
+        Everyone with Type 1 diabetes, and some people with Type 2 diabetes, need to take insulin to control their blood glucose (sugar) levels,
+        If you need help injecting yourself.</li>
+    </string>
+    <string name="DiabetesLink1">
+        <li><a href="https://www.nhsinform.scot/illnesses-and-conditions/diabetes/diabetes">NHF inform link</a></li>
+        \n \n
+        <li><a href="http://www.diabetes.org/living-with-diabetes/treatment-and-care/">Diabetes.Org link</a></li>
+    </string>
+    <string name="DiabetesLink2">
+
+    </string>
+    <string name="cardTitleFAQs2">Blood pressure</string>
+    <string name="cardContentFAQs2">  <li><b>Blood pressure</b> is the measure of the force of blood pushing against blood vessel walls.</li> \n
+       <li> The heart pumps blood into blood vessels, which carry the blood throughout the body.</li> \n
+        <li>High blood pressure, also called hypertension, is dangerous because it makes the heart work harder to pump blood out to the body
+            and contributes to hardening of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.</li></string>
+    <string name="BloodPressureTreatment">
+        <li>Everyone with high blood pressure is advised to make healthy lifestyle changes.</li>\n
+        <li>Whether medication is recommended depends on your blood pressure reading and your risk of developing problems such as heart attacks or strokes.</li> \n
+        <ul><li>Your doctor will carry out some blood and urine tests, and ask questions about your health to determine your risk of other problems: </li></ul>\n
+
+           <ul> <li><b>if your blood pressure is consistently above 140\/90mmHg \(or 135\/85mmHg at home\) </b>but your risk of other problems is low \– you\'ll be advised to make some changes to your lifestyle</li>\n
+            <li><b>if your blood pressure is consistently above 140\/90mmHg \(or 135\/85mmHg at home\)</b> and your risk of other problems is high \– you\'ll be offered medication to lower your blood pressure, in addition to lifestyle changes</li>\n
+        <li><b>if your blood pressure is consistently above 160\/100mmHg</b> \– you\'ll be offered medication to lower your blood pressure, in addition to lifestyle changes</li></ul>
+
+
+    </string>
+    <string name="BloodPressureLink">
+        <li><a href="https://www.nhs.uk/conditions/high-blood-pressure-hypertension/">NHS Link</a></li>
+        \n \n
+        <li><a href="https://www.healthline.com/health/high-blood-pressure-hypertension-treatment">Health Line Link</a></li>
+    </string>
+
+    <string name="cardTitleFAQs3">Hepatitis C</string>
+    <string name="cardContentFAQs3"><li><b> Hepatitis C </b>is an infectious disease caused by the hepatitis C virus (HCV) that primarily affects the liver.</li>\n
+       <li>During the initial infection people often have mild or no symptoms. Occasionally a fever, dark urine, abdominal pain, and yellow tinged skin occurs.</li> \n
+        <li>The virus persists in the liver in about 75% to 85% of those initially infected. Early on chronic infection typically has no symptoms.</li>\n
+        <li>Over many years however, it often leads to liver disease and occasionally cirrhosis. In some cases, those with cirrhosis will develop complications such as liver failure, liver cancer, or dilated blood vessels in the esophagus and stomach</li></string>
+    <string name="HepatitisCTreatment">
+    <b>Treatment for hepatitis C involves:</b>\n
+
+        <li>making lifestyle changes to help prevent further damage to your liver and reduce the risk of spreading the infection taking one or more medications to fight the virus</li>\n
+        <li> You will normally need to take medication for 8 to 48 weeks.</li>\n
+         The length of time will depend on the medicines you are taking and which version (strain) of the hepatitis C virus you have.Your doctor will advise you about this.
+        <li>There are 6 main strains of the virus. In the UK, the most common strains are known as genotype 1 and genotype 3.</li>\n
+        <li> During treatment, you should have blood tests to check if your medication is working.\n Treatment may be stopped if the tests show it is having little effect.</li>
+
+
+
+</string>
+    <string name="HepatitisClink">
+        <li><a href="https://www.nhs.uk/conditions/hepatitis-c/">NHS Link</a></li>
+        \n \n
+        <li><a href="https://www.webmd.com/hepatitis/hepc-guide/understanding-hepatitis-c-treatment#1">WebMD Link</a></li>
+    </string>
+
+    <string name="cardTitleFAQs4">Alzheimer\'s</string>
+    <string name="cardContentFAQs4"><li><b> Alzheimer\'s</b> is a type of dementia that causes problems with memory, thinking and behavior.</li>\n
+        <li>Symptoms usually develop slowly and get worse over time, becoming severe enough to interfere with daily tasks.</li></string>
+
+    <string name="AlzheimerTreatment">
+        <li> While there is no cure for Alzheimer\'s disease or a way to stop or slow its progression, there are drug and non-drug options that may help treat symptoms.</li>\n
+        <li>Understanding available options can help individuals living with the disease and their caregivers to cope with symptoms and improve quality of life.</li>
+    </string>
+
+    <string name="AlzheimerLink">
+        <li><a href="https://www.alz.org/alzheimers-dementia/what-is-alzheimers">Alzheimers Association Link</a></li>
+        \n \n
+       <li> <a href="https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/diagnosis-treatment/drc-20350453">MAYO CLINIC Link</a></li>
+    </string>
+
+    <string name="cardTitleFAQs5">Breast Cancer</string>
+    <string name="cardContentFAQs5"> <li><b>Breast cancer </b>starts when cells in the breast begin to grow out of control.</li>\n
+        <li>These cells usually form a tumor that can often be seen on an x-ray or felt as a lump. </li>\n
+        <li>The tumor is malignant (cancer) if the cells can grow into (invade) surrounding tissues or spread (metastasize) to distant areas of the body.</li> \n
+        <li>Breast cancer occurs almost entirely in women</li></string>
+
+    <string name="BreastCancerTreatment">
+        <li><b>Cancer care</b>, doctors specializing in different areas of cancer treatment-such as surgery, radiation oncology, and medical oncology-work together to create a patient’s overall treatment plan that combines different types of treatments.</li>\n
+        <li>This is called a multidisciplinary team.</li>\n
+        <li>Cancer care teams include a variety of other health care professionals, such as physician assistants, oncology nurses, social workers, pharmacists, counselors, nutritionists, and others.</li>\n
+        <li>For people older than 65, a geriatric oncologist or geriatrician may also be involved in care.</li>\n
+        <li>Ask the doctor in charge of your treatment which health care professionals will be part of your treatment team and what they do.</li>\n
+         <li>This can change over time as your health care needs change.</li>\n
+         <li>A treatment plan is a summary of your cancer and the planned cancer treatment.</li>\n
+         <li>It is meant to give basic information about your medical history to any doctors who will care for you during your lifetime.</li>\n
+         <li>Before treatment begins, ask your doctor for a copy of your treatment plan.</li>\n
+         <li>You can also provide your doctor with a copy of the ASCO Treatment Plan form to fill out.</li>
+
+    </string>
+    <string name="BreastCancerLink">
+       <li> <a href="https://www.cancer.org/cancer/breast-cancer/about/what-is-breast-cancer.html">Cancer.Org Link</a></li>
+      \n \n
+        <li><a href="https://www.cancer.net/cancer-types/breast-cancer/treatment-options">Cancer.Org Link</a></li>
+    </string>
+
+    <string name="what_is_it">What is it?</string>
+    <string name="disease">Disease</string>
+    <string name="treatment">Treatment</string>
+    <string name="readMore">Read More</string>
+    <string name="cardTitleNews1" translatable="false">أخبار اليوم</string>
+    <string name="cardTitleNews2" translatable="false">اليوم السابع</string>
+    <string name="cardTitleNews3" translatable="false">أخبارك</string>
+    <string name="cardTitleNews4" translatable="false">الشروق</string>
+    <string name="cardTitleNews5" translatable="false">الأهرام</string>
+    <string name="cardTitleNews6" translatable="false">الجمهورية</string>
+    <string name="titleEmrg">Emergency Call Egypt</string>
+    <string name="cardTitleEmrg1">Police</string>
+    <string name="cardContentEmrg1" translatable="false">Tel: 122</string>
+    <string name="cardTitleEmrg2">Ambulance</string>
+    <string name="cardContentEmrg2" translatable="false">Tel: 123</string>
+    <string name="cardTitleEmrg3">Fire</string>
+    <string name="cardContentEmrg3" translatable="false">Tel: 180</string>
+    <string name="cardTitleEmrg4">Electricity</string>
+    <string name="cardContentEmrg4" translatable="false">Tel: 121</string>
+    <string name="cardTitleEmrg5">Water</string>
+    <string name="cardContentEmrg5" translatable="false">Tel: 125</string>
+    <string name="cardTitleEmrg6">Sewage</string>
+    <string name="cardContentEmrg6" translatable="false">Tel: 175</string>
+    <string name="cardTitleEmrg7">Gas</string>
+    <string name="cardContentEmrg7" translatable="false">Tel: 129</string>
+    <string name="cardTitleEmrg8">Government</string>
+    <string name="cardContentEmrg8" translatable="false">Tel : 16528</string>
+    <string name="cardTitleEmrg9">Tourism</string>
+    <string name="cardContentEmrg9" translatable="false">Tel :  126</string>
+    <string name="cardTitleEmrg10">Guide</string>
+    <string name="cardContentEmrg10" translatable="false">Tel : 140</string>
+    <string name="cardTitleEmrg11">Disabilities</string>
+    <string name="cardContentEmrg11" translatable="false">Tel : 08008886666</string>
+    <string name="cardTitleEmrg12">Clock</string>
+    <string name="cardContentEmrg12" translatable="false">Tel : 150</string>
+    <string name="comuniTitle">Communication Companies</string>
+
+    <string name="code" translatable="false">كود الخدمة:</string>
+    <string name="card_charge_title1" translatable="false">خدمة شحن الكارت</string>
+    <string name="card_charge_title2" translatable="false">خدمة الإستعلام عن الرصيد</string>
+    <string name="card_charge_title3" translatable="false">خدمة تحويل الرصيد</string>
+    <string name="card_charge_title4" translatable="false">خدمة موبايل انترنت</string>
+    <string name="card_charge_title5" translatable="false">خدمة كلمني شكرا</string>
+    <string name="card_charge_title6" translatable="false">خدمة سلفني شكرا</string>
+    <string name="card_charge_title7" translatable="false">خدمة عملاء</string>
+    <string name="request_bttn">Request</string>
+    <string name="cardTitleCompany1">Vodafone Services</string>
+    <string name="cardTitleCompany2">Etisalat Services</string>
+    <string name="cardTitleCompany3">Orange Services</string>
+    <string name="cardTitleCompany4">We Services</string>
+    <string name="RestPassword">Reset Password</string>
+    <string name="main_title">Application User</string>
+    <string name="main_content">Register as Application User and Access All Our Useful Functions That we Provide To make Your Phone easy to use</string>
+    <string name="main_title2">Trusted Person</string>
+    <string name="main_content2">Register as Trusted Person for Application User in order to Track him by using a Map that show the Location of  User</string>
+    <string name="username">Username</string>
+    <string name="dataError">Failed to read user ID, Please Check If User Is Exist</string>
+    <string name="title_activity_Reminder">Reminder</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_tid_trusted">Welcome</string>
+    <string name="hint_activity_id_trusted">Enter User ID</string>
+    <string name="btn_activity_id_trusted">Let\'s Start</string>
+    <string name="txt_activity_reg">Already Have Account?</string>
+    <string name="btn_activity_reg">Login</string>
+    <string name="spiner_item1">Male</string>
+    <string name="spiner_item2">Female</string>
+    <string name="check_mail_exisiting">Mail Is Already Exist</string>
+    <string name="title_xml_activity_trusted_login">Trusted Person Login</string>
+    <string name="btn_forget_pass_activity">Forget password ?</string>
+    <string name="title_create_account_activity">Create New An Account?</string>
+    <string name="btn_reg_activity">Register</string>
+    <string name="success_rest">Check email to reset your password!</string>
+    <string name="failed_rest">Fail to send reset password email!</string>
+    <string name="validation_massage">Please Enter Valid Email and Password</string>
+    <string name="validation_user_id">Please Ensure From User ID Before Click and Make Sure There is no spaces to avoid errors in Locate Elders Users</string>
+    <string name="wrong_massage">Wrong Email or Password</string>
+    <string name="check_vaild_package">Error, Please Try Again.</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_calender">Calender</string>
+    <string name="menu_alarm">Alarm</string>
+    <string name="menu_flash">Flash</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_close">Close</string>
+    <string name="menu_translate_En" translatable="false">English</string>
+    <string name="menu_translate_Ar" translatable="false">عربي</string>
+    <string name="profile_loading">Loading...</string>
+    <string name="profile_mail">Email: </string>
+    <string name="profile_ph">Your Number: </string>
+    <string name="profile_Tph">Trusted Number: </string>
+    <string name="profile_btn_share">Share ID to..</string>
+    <string name="profile_text">Your Device ID</string>
+    <string name="profile_user_name">User Name: </string>
+    <string name="profile_pic">Change Picture</string>
+    <string name="profile_save">Save</string>
+    <string name="app_name">Just Tap</string>
+    <string name="my_healtym">helth</string>
+
+
+    <!-- Service URLs -->
+
+
+</resources>
+
+

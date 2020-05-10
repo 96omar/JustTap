@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0095ff</color>
+    <color name="colorPrimaryDark">#0095ff</color>
+    <color name="colorAccent">#00bfa5</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#f1ad0e</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="red">#ef111c</color>
+    <color name="lightBlue">#0095ff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="darkColor_logo">#333333</color>
+    <color name="actionbar_text">#000000</color>
+    <color name="actionbar_background">#004895</color>
+    <color name="actionbar_tab_background">#fa7310</color>
+    <color name="flash_color">#157eff</color>
+    <color name="reminder_color">#da3d16</color>
+    <color name="light_green">#4ccc4c</color>
+    <color name="blue50">#E1F5Fe</color>
+    <color name="blue100">#B3E5FC</color>
+    <color name="blue200">#81D4FA</color>
+    <color name="blue300">#4FC3F7</color>
+    <color name="blue400">#29B6F6</color>
+    <color name="blue500">#03A9F4</color>
+    <color name="blue600">#039BE5</color>
+    <color name="blue700">#0288D1</color>
+    <color name="blue800">#0277BD</color>
+    <color name="blue900">#01579B</color>
+    <color name="trusted">#118d9e</color>
+    <color name="user">#0453f2</color>
+    <color name="mic">#9974ff</color>
+
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#09c6df</color>
+    <color name="graylight">#fafafa</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="black">#000000</color>
+    <color name="gray_news">#4D5155</color>
+    <color name="gray">#888e94</color>
+    <color name="green_emr">#34552B</color>
+    <color name="red_emr">#7B3703</color>
+
+
+
+
+
+</resources>

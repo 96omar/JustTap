@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_health_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/content_user_health_faqs" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/scrollHealth"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/main_card_view_faqs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/faqs_disease"
+                    android:text="@string/disease"
+                    android:textSize="27sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"/>
+
+                <TextView
+                    android:id="@+id/faqs_What"
+                    style="@style/title_faqs"
+                    android:text="@string/what_is_it"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/faqs_Def"
+                    style="@style/content_faqs"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/faqs_treatment_title"
+                    style="@style/title_faqs"
+                    android:text="@string/treatment" />
+
+                <TextView
+                    android:id="@+id/faqs_treat_content"
+                    style="@style/content_faqs"
+                    android:text="TextView" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:id="@+id/faqs_read_more"
+                    style="@style/title_faqs"
+                    android:text="Read More" />
+
+                <TextView
+                    android:id="@+id/links"
+                    style="@style/content_faqs"
+                    android:clickable="true"/>
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

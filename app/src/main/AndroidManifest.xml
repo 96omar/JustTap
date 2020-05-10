@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SevenDigITs.Solutions.justTap">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_final"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".WidgateActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/simple_app_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".user.TrackerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".gps.GPS_Tracker"
+            android:label="@string/title_activity_gps__tracker" />
+        <activity
+            android:name=".trusted.User_Id"
+            android:theme="@style/trusted_activity_theme" />
+        <activity
+            android:name=".utilities.SplashActivity"
+            android:theme="@style/AppTheme3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user.account.User_Register"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".trusted.account.Trusted_Register"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".user.account.User_Login"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".trusted.account.Trusted_Login"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".user.apps.MainFragment"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/apps_activity_theme" />
+        <activity
+            android:name=".MainLancher"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".user.MainUserActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".user.ToolsUserActivity"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/tools_activity_theme" />
+        <activity
+            android:name=".user.note.MainActivityReminder"
+            android:label="@string/title_activity_Reminder"
+            android:parentActivityName=".user.MainUserActivity" />
+        <activity
+            android:name=".user.note.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".user.note.MainActivityReminder" />
+        <activity
+            android:name=".user.medication.mpill.ViewController.MainActivityBill"
+            android:parentActivityName=".user.medication.HealthyUserActivity"
+            android:theme="@style/health_activity_theme" />
+        <activity
+            android:name=".user.medication.mpill.ViewController.AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName=".user.medication.mpill.ViewController.MainActivityBill">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".user.medication.mpill.ViewController.MainActivityBill" />
+        </activity>
+        <activity
+            android:name=".user.medication.mpill.ViewController.AlertActivity"
+            android:label="@string/title_activity_alert"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.alertactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user.medication.mpill.ViewController.PillBoxActivity"
+            android:label="@string/title_activity_edit"
+            android:parentActivityName=".user.medication.mpill.ViewController.MainActivityBill" />
+        <activity
+            android:name=".user.medication.mpill.ViewController.ScheduleActivity"
+            android:label="@string/title_activity_setting"
+            android:parentActivityName=".user.medication.mpill.ViewController.MainActivityBill">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".user.medication.mpill.ViewController.MainActivityBill" />
+        </activity>
+        <activity
+            android:name=".user.medication.mpill.ViewController.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:parentActivityName=".user.medication.mpill.ViewController.MainActivityBill" />
+        <activity
+            android:name=".user.medication.HealthyUserActivity"
+            android:label="@string/healthTitle"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/health_activity_theme" />
+        <activity
+            android:name=".user.medication.mfaqs.FAQSHealthyActivity"
+            android:label="@string/faqsTitle"
+            android:parentActivityName=".user.medication.HealthyUserActivity"
+            android:theme="@style/health_activity_theme" />
+        <activity
+            android:name=".user.NewsPaperUserActivity"
+            android:label="@string/titleNewsPaper"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/news_activity_theme" />
+        <activity
+            android:name=".user.EmergencyCallingActivityUser"
+            android:label="@string/titleEmrg"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/emrg_activity_theme" />
+        <activity
+            android:name=".user.CommunicationCompanyUserActivity"
+            android:label="@string/comuniTitle"
+            android:parentActivityName=".user.MainUserActivity"
+            android:theme="@style/company_activity_theme" />
+        <activity
+            android:name=".ProfileUsersActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".EditProfileUsersActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:parentActivityName=".ProfileUsersActivity" />
+        <activity android:name=".user.help.HelpUserActivity"
+            android:theme="@style/AppTheme3"/>
+        <activity android:name=".trusted.help.HelpTrustedActivity"
+            android:theme="@style/AppTheme3"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/trusted_login_gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="@string/title_xml_activity_trusted_login"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/trusted_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/trusted_password_Login"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray" />
+
+            <Button
+                android:id="@+id/trusted_LoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/btn_activity_reg"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/trusted_ForgetPasswordButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/btn_forget_pass_activity"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/lightgray" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/title_create_account_activity"
+                android:textColor="@color/darkblue"
+                android:textSize="17sp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/trusted_RegbuttonLog"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/actionbar_background"
+                android:text="@string/btn_reg_activity"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/trusted_liner_forget_gone"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <EditText
+                    android:id="@+id/trusted_ForgetPasswordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:padding="20dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/gray" />
+
+                <Button
+                    android:id="@+id/trusted_bttnrest"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:backgroundTint="@color/darkblue"
+                    android:text="@string/RestPassword"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
